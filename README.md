@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        while (true)  // infinite loop until user exits
+        while (true)  
         {
             Console.WriteLine("Enter operation (+, -, *, /) or q to quit:");
             var op = Console.ReadLine();   
