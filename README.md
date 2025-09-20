@@ -1,4 +1,3 @@
-
 using System;
 
 class Program
@@ -8,8 +7,8 @@ class Program
         while (true)  // infinite loop until user exits
         {
             Console.WriteLine("Enter operation (+, -, *, /) or q to quit:");
-            var op = Console.ReadLine();   // read operator
-            if (op == "q") break;         // exit condition
+            var op = Console.ReadLine();   
+            if (op == "q") break;        
 
             Console.Write("A: ");
             if (!decimal.TryParse(Console.ReadLine(), out var a))
